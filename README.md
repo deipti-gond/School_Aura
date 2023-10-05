@@ -1,2 +1,2 @@
 # School_Aura
-The home page same of the SchoolAura.
+The home page of the SchoolAura.
