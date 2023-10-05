@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="https://schoolaura.com/Content/assets/images/logo_school.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Why Online Study With SchoolAura?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Courses</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Tutor Solution</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Be A Smart Student</h1>
+            <p class="banner-caption mb-4">SchoolAura Is A Smart Education Platform</p>
+            <button class="custom-button">View Courses</button>
+            <button class="custom-outline-button">Register Now</button>
+        </div>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Why Online Study With SchoolAura?</h1>
+                    <p class="wcu-section-description">
+                        Now Use your time and gain knowledge in every second and Use your device for right things not for waste your time
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://static.vecteezy.com/system/resources/previews/026/922/533/large_2x/ai-generative-happy-diverse-group-of-college-students-working-together-on-study-project-in-university-library-sitting-at-table-with-books-laptop-talking-discussing-research-learning-tasks-laughing-photo.jpg" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Online Education</h1>
+                        <p class="wcu-card-description">
+                            he world is changing for the better. Because of the advancement of technology, geek minds have grown tired of doing more work, and carrying books, notebooks and how much to buy books?
+
+                            Solution: Now you can find a simple solution with schoolaura. In these days almost everyone has a Smartphone, Tab or Laptop. So just open your device and start your study from anywhere anytime while you are travelling, sitting in the park, and etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://www.thoughtco.com/thmb/mi5BR5mruiShD9HnmFwoIu241E4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/high-school-teacher-calling-on-student-in-classroom-595349163-5adf35e6fa6bcc0036b16732.jpg" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Expert Teachers</h1>
+                        <p class="wcu-card-description">
+                            Daily assignments and tasks can be easily completed through online availability of information. Subject wise homework can be submitted online which helps students to finish their tasks online
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">256 Courses</h1>
+                        <p class="wcu-card-description">
+                            It becomes important nowadays for students to share their thoughts and ideas, SchoolAura Smart Education Platform will provide you a perfect stage to showcase and share your brilliant ideas.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Courses</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://thumbs.dreamstime.com/b/education-school-university-books-college-classes-16441446.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">1-12th Class</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://d13loartjoc1yn.cloudfront.net/article/1684235410_Competitive%20Exams%202023.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Competitive Class</h1>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://s3.youthkiawaaz.com/wp-content/uploads/2011/02/07004442/entrance-exam.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Entrance Exams</h1>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="visit-campus pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://www.guidingtech.com/wp-content/uploads/fix-videos-not-playing-on-iPhone-photos_4d470f76dc99e18ad75087b1b8410ea9.jpg" class="visit-campus-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="visit-campus-heading">
+                        VISIT OUR CAMPUS WITH IMAGE GALLERY
+                    </h1>
+                    <p class="visit-campus-description">
+                        Even slightly believable. If you are going use a passage of Lorem Ipsum need
+
+                        OR WATCH WITH VIDEO
+                    </p>
+                    <button class="custom-button">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="text-center">
+                        <img src="https://cdn.carnegielearning.com/assets/blog-images/tutoring_blog_image_1.png" class="delivery-and-payment-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <h1 class="delivery-and-payment-section-heading">
+                        Tutor Solution
+                    </h1>
+                    <p class="delivery-and-payment-section-description">
+                        We provide tailored assistance, including personalized one-on-one tutoring for school subjects and effective test preparation. Our team of experts is also available to guide parents on supporting their child's education journey.
+                    </p>
+                    <button class="custom-button">Ask Now</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://schoolaura.com/Content/assets/images/logo_school.png" class="logo" />
+                    <h1 class="footer-section-mail-id">contact@schoolaura.com</h1>
+                    <p class="footer-section-address">
+                        123 Ayur Vigyan Nagar, New Delhi, India.
+                        +91-9540349392
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
